@@ -31,6 +31,13 @@ body {
     transform: scale(1);
 }
 
+
+/*Transformação - Diminuir tamanho carta ao clicar*/
+.card:active {
+    transform: scale(0.97);
+    transition: transform 0.3s;
+}
+
 .card-front, .card-back {
     width: 100%;
     height: 100%;
