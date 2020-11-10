@@ -31,13 +31,13 @@ body {
     cursor: pointer; 
     transform: scale(1);
     transform-style: preserve-3d;
-    transition: transform 0.9s; 
+    transition: transform .9s; 
 }
 
 /*Transformação - Diminuir tamanho carta ao clicar*/
 .card:active {
     transform: scale(0.97);
-    transition: transform 0.3s;
+    transition: transform .2s;
 }
 
 /*Continuando edições nas cartas*/
